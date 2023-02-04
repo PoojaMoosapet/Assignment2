@@ -1,0 +1,13 @@
+#1.Use a python code to display the following star pattern using the for loop
+#Question11.
+rows = 5
+#using nested for loop for top 5 rows of star pattern
+for i in range(0, rows):
+    for j in range(0, i + 1):
+        print("*", end=' ')
+    print("\r")
+##using nested for loop for bottoms 5rows of star pattern
+for i in range(rows, 0, -1):
+    for j in range(0, i - 1):
+        print("*", end=' ')
+print("\r")     
